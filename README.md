@@ -15,4 +15,9 @@ https://source.unsplash.com - I used Unsplash for the background images. I used 
 
 I used HTML/CSS/BootStrap 4/JavaScript/jQuery
 <br>
+Function for Date Format by Gavin Kistner taken from-http://phrogz.net/JS/FormatDateTime_JS.txt
+<br>
+//*** This code is copyright 2002-2016 by Gavin Kistner, !@phrogz.net
+//*** It is covered under the license viewable at http://phrogz.net/JS/_ReuseLicense.txt
+<br>
 Live Demo - https://codepen.io/jcdiaz1991/full/jZMarN/
