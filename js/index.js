@@ -31,7 +31,7 @@ Date.prototype.customFormat = function(formatString){
   return formatString.replace("#hhhh#",hhhh).replace("#hhh#",hhh).replace("#hh#",hh).replace("#h#",h).replace("#mm#",mm).replace("#m#",m).replace("#ss#",ss).replace("#s#",s).replace("#ampm#",ampm).replace("#AMPM#",AMPM);
 };
 
-$("#today").html(now.customFormat( "#DDDD# #MMMM# #M#, #YYYY#" ))
+$("#today").html(now.customFormat( "#DDDD# #MMMM# #D#, #YYYY#" ))
 
 
 function fccApi(lat, lon){
