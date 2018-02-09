@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:400,700'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="row">
+    <div class = "col-lg-12 text-center" id="today">
+<h1>Today's Weather<h1>
+  </div>
+  </div>
+  
+  
+  <div class="outside">
+    <div class="row">
+    <div class = "col-lg-12 city text-center " id="city">City
+      </div>
+    </div>
+      <div class="row">
+      <div class = "col-lg-12 text-center" id = "description">
+        Description
+        </div>  
+      </div>
+    <div class="row">
+      <div class = "col-lg-12 text-center" id = "icon">
+        icon
+        </div>  
+      </div>
+    
+    <div class="row">
+      <div class = "col-lg-12 text-center" id = "degrees">
+        Degrees
+        </div> 
+      </div>
+    
+    <div class="row justify-content-center">
+    <div class="btn-group" data-toggle="buttons">
+      
+        <input id="f" type="button" value="&#8457" onclick="convertTempF();" class="btn btn-primary active">
+      
+      <input id="c" type="button" value="&#8451" onclick="convertTempC();" class="btn btn-primary">
+      </div>
+</div>
+        <div class="row align-items-center" style="border-bottom: 3px solid white; margin-top:3%;">
+      <div class = "col text-left" id = "day">
+        Day
+        </div> 
+                <div class = "col text-right" id = "maxmin">
+       Max  Min
+        </div>
+      </div>
+    
+    <div class="row align-items-center" style="margin-top:20px;">
+      <div class="col text-left" id="one">
+        Day One
+      </div>
+      <div class="col text-right" id="onetemp">
+        Temp 
+      </div> 
+    </div>
+    
+    <div class="row align-items-center">
+      <div class="col text-left" id="two">
+        Day Two
+      </div>
+      <div class="col text-right" id="twotemp">
+        Temp
+      </div> 
+    </div>
+    
+    <div class="row align-items-center">
+      <div class="col text-left" id="three">
+        Day Three
+        
+      </div>
+      <div class="col text-right" id="threetemp">
+        Temp
+      </div> 
+    </div>
+    
+    <div class="row align-items-center">
+      <div class="col text-left" id="four">
+        Day Four
+      </div>
+      <div class="col text-right" id="fourtemp">
+        Temp
+      </div> 
+    </div>
+    
+    <div class="row align-items-center">
+      <div class="col text-left" id="five">
+        Day Five
+      </div>
+      <div class="col text-right" id="fivetemp">
+        Temp
+      </div> 
+    </div>
+    
+     <div class="row">
+      <div class = "col-lg-12 text-center coded">
+         Coded by Juan Diaz
+      </div>
+    </div>
+    
+    </div>
+    
+       
+      </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
